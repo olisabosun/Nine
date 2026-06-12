@@ -15,8 +15,6 @@ from dotenv import load_dotenv
 from azure.identity import DefaultAzureCredential, get_bearer_token_provider
 from openai import OpenAI
 
-
-
 # Load environment variables
 load_dotenv()
 
